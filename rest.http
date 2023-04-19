@@ -1,0 +1,17 @@
+### check server status
+GET http://localhost:8000
+
+
+#=====Admin API
+### post new admin user
+POST http://localhost:8000/api/v1/admin-user
+Content-Type: application/json
+
+{
+    "fName":"Praveennn",
+    "lName": "Niroula",
+    "address": "",
+    "email": "a@a5.com",
+    "password": "123456",
+    "confirmPassword":"122"
+}
